@@ -993,7 +993,9 @@ def app():
 <hr id=hr>مفتوح الحقوق و يسمح بالنسخ و الاستخدام الحر</hr>
 
 """).style("direction:rtl; text-align:right;")
-      popup("❤️صلي على رسول الله")
+      popup("صدقة جارية لارواح " \
+      "السيد متولي علي و سوسن هاشم و وصال حسن " \
+      "اللهم اغفر لهم و ارحمهم و اجعلهم من اصحاب اليمين ")
       put_text("اضغط لعرض المزيد عن المطور").onclick(lambda: toast("تم الطوير من قبل استوديو -بالعربي🪶- على يد المطور ميدو")).style("direction:ltr; text-align:right;") 
 import os
 start_server(
