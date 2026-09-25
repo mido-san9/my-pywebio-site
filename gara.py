@@ -8,6 +8,7 @@ from pywebio import config
 def app():
       put_image(open("logo.jpg", "rb").read())
       put_html("""
+      <div translate="no">
                <p id=2> </p>
 <center><h1 id=9>بسم الله الرحمن الرحيم</h1>
 <center><h1 id=9>المصحف الشريف-بالعربي🪶</h1>
@@ -1032,6 +1033,7 @@ function searchImages() {
 </details>
 
 <a href="mailto:mshakessyt@gmail.com">الشكاوى والاقتراحات</a>
+</div>
 """).style("direction:rtl; text-align:right;")
       popup("صدقة جارية لارواح " \
       "ايناس حسن و السيد متولي علي و سوسن هاشم و وصال حسن " \
