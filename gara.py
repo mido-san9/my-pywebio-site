@@ -15,6 +15,12 @@ def app():
 <ul> 
         <h3>صلي على الحبيب❤️</h3>
 </ul>
+<center>
+    <h3>👥 عدد الزيارات</h3>
+    <div class="counterapi" ns="qaria-mido" action="view" key="homepage" label="زيارة"></div>
+</center>
+
+<script src="https://counterapi.com/c.js" async></script>
 <input id="search" type="text" placeholder="🔎 ابحث عن سورة..." 
        oninput="searchImages()">
 
