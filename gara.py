@@ -20,7 +20,8 @@ def app():
     <div class="counterapi" ns="qaria-mido" action="view" key="homepage" label="زيارة"></div>
 </center>
 
-<script src="https://counterapi.com/c.js" async></script>
+<script src="https://counterapi.com/c.js"></script>
+
 <input id="search" type="text" placeholder="🔎 ابحث عن سورة..." 
        oninput="searchImages()">
 
