@@ -48,7 +48,7 @@ function searchImages() {
 <details id= "1">
 <summary>سورة الفاتحة</summary>
    <audio controls>
-      <source src="https://server11.mp3quran.net/yasser/001.mp3" type="mp3">
+      <source src="https://server11.mp3quran.net/yasser/001.mp3" type="audio/mpeg">
       </audio>
 
              <h3 id=h3>اعوز بالله من الشيطان الرجيم</h3>
